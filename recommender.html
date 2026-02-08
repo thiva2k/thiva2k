@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVerse | Recommender</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Random Book Recommender</h1>
+      <section class="card form-grid">
+        <select id="genreSelect"><option value="all">Any Genre</option></select>
+        <select id="lengthSelect">
+          <option value="all">Any Length</option>
+          <option value="short">Short</option>
+          <option value="medium">Medium</option>
+          <option value="long">Long</option>
+        </select>
+        <button id="pickBtn" class="btn">Pick a Book</button>
+        <button id="pickAgainBtn" class="btn secondary">Pick Again</button>
+      </section>
+      <section class="card" id="recommendation"></section>
+      <button id="saveRecBtn" class="btn">Save to Reading List</button>
+      <ul id="readingList" class="card"></ul>
+    </main>
+    <script type="module" src="js/recommender.js"></script>
+  </body>
+</html>

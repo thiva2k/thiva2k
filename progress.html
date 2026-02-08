@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVerse | Progress Tracker</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Reading Progress Tracker</h1>
+      <form id="progressForm" class="card form-grid">
+        <input id="totalPages" type="number" min="1" placeholder="Total pages" required />
+        <input id="pagesRead" type="number" min="0" placeholder="Pages read" required />
+        <input id="dailySpeed" type="number" min="1" placeholder="Pages per day" required />
+        <button class="btn" type="submit">Calculate</button>
+      </form>
+      <section class="card">
+        <p id="progressStats">Fill the form to calculate progress.</p>
+        <div class="progress"><div id="progressBar"></div></div>
+        <button id="saveProgress" class="btn secondary">Save Progress</button>
+      </section>
+    </main>
+    <script type="module" src="js/progress.js"></script>
+  </body>
+</html>
