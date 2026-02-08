@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVerse | Feedback</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Feedback</h1>
+      <form id="feedbackForm" class="card form-grid">
+        <input id="name" placeholder="Name" required />
+        <input id="email" type="email" placeholder="Email" required />
+        <textarea id="message" placeholder="Message" required></textarea>
+        <button class="btn" type="submit">Submit</button>
+        <p id="feedbackStatus"></p>
+      </form>
+
+      <section class="card">
+        <h2>FAQ</h2>
+        <div class="faq-item"><button class="faq-q">How do recommendations work?</button><p class="faq-a">They are randomly selected from the local book dataset based on your filters.</p></div>
+        <div class="faq-item"><button class="faq-q">Where is my data stored?</button><p class="faq-a">In your browser localStorage only.</p></div>
+      </section>
+    </main>
+    <script type="module" src="js/feedback.js"></script>
+  </body>
+</html>

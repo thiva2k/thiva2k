@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVerse | Book Explorer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header"><nav class="navbar container"><a class="brand" href="index.html">📚 BookVerse</a></nav></header>
+    <main class="container">
+      <h1>Book Explorer</h1>
+      <div class="filters card">
+        <input id="searchInput" type="text" placeholder="Search title or author" />
+        <select id="genreFilter"><option value="all">All Genres</option></select>
+      </div>
+      <section id="bookGrid" class="book-grid"></section>
+    </main>
+
+    <dialog id="bookModal" class="book-modal">
+      <article>
+        <h2 id="modalTitle"></h2>
+        <p id="modalSynopsis"></p>
+        <h3>Sequels & Prequels</h3>
+        <ul id="modalSeries"></ul>
+        <h3>Ratings & Reviews</h3>
+        <table>
+          <thead><tr><th>User</th><th>Rating</th><th>Review</th></tr></thead>
+          <tbody id="modalReviews"></tbody>
+        </table>
+        <button class="btn" id="closeModal">Close</button>
+      </article>
+    </dialog>
+
+    <script type="module" src="js/explorer.js"></script>
+  </body>
+</html>

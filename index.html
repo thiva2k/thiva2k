@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVerse | Home</title>
+    <meta name="description" content="BookVerse - discover books, track progress, and build your reading flow." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="index.html">📚 BookVerse</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explorer.html">Book Explorer</a></li>
+          <li><a href="progress.html">Progress Tracker</a></li>
+          <li><a href="recommender.html">Recommender</a></li>
+          <li><a href="flow.html">Reading Flow</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container reveal">
+        <div>
+          <h1>Read Better, Feel Better.</h1>
+          <p id="heroQuote" class="quote"></p>
+          <p id="heroPhrase" class="phrase"></p>
+          <a href="explorer.html" class="btn">Explore Books</a>
+        </div>
+        <div class="hero-illustration" aria-hidden="true">
+          <div class="book-stack"></div>
+        </div>
+      </section>
+
+      <section class="container reveal card">
+        <h2>Author of the Day</h2>
+        <p id="authorOfDay"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>BookVerse</h3>
+          <p>Your friendly reading companion.</p>
+          <p><a href="feedback.html">Contact</a> · <a href="explorer.html">Library</a></p>
+        </div>
+        <form id="newsletterForm" class="newsletter">
+          <label for="newsletterEmail">Newsletter</label>
+          <input id="newsletterEmail" type="email" placeholder="you@example.com" required />
+          <button class="btn" type="submit">Subscribe</button>
+          <p id="newsletterMessage" class="status"></p>
+        </form>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
