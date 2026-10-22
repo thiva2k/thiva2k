@@ -1,5 +1,41 @@
-# 💫 About Me:
-# 👋 About Me<br><br>I'm **Thivarrakesh Parthipan**, a Cyber Security undergraduate at APIIT, Sri Lanka, passionate about building developer platforms, AI systems, and secure infrastructure.<br><br>I'm currently building **Atlas**, an AI-powered developer workstation that automates development environments and delivers a polished terminal-first experience across Linux systems.<br><br>Beyond Atlas, I enjoy developing practical AI solutions. One of my recent projects is **QueueFlow AI**, an intelligent queue management system built for a technology competition, leveraging AI to improve customer flow, reduce waiting times, and enhance operational efficiency.<br><br>Alongside these projects, I'm growing **NuTech Solutions**, where I develop AI-powered automation, custom software, and IT solutions for businesses.<br><br>### 🌱 Currently Learning<br><br>* Cybersecurity<br>* Linux System Administration<br>* AI Engineering & AI Agents<br>* Cloud Infrastructure<br>* Software Architecture<br>* Platform Engineering<br><br>### 🚀 Current Focus<br><br>* Building Atlas into a world-class open-source developer platform<br>* Growing NuTech Solutions<br>* Contributing to open-source software<br><br>### 🛠️ Interests<br><br>* Cybersecurity<br>* Artificial Intelligence<br>* Linux & Open Source<br>* DevOps & Platform Engineering<br>* Cloud Computing<br>* Automation<br>* Systems Programming<br><br>### 🎯 Long-Term Vision<br><br>To build globally recognized technology products that empower developers, solve real-world problems, and shape the future of software engineering.<br>
+# 👋 About Me
+
+I'm **Thivarrakesh Parthipan**, a Cyber Security undergraduate at APIIT, Sri Lanka, passionate about building developer platforms, AI systems, and secure infrastructure.
+
+I'm currently building **Atlas**, an AI-powered developer workstation that automates development environments and delivers a polished terminal-first experience across Linux systems.
+
+Beyond Atlas, I enjoy developing practical AI solutions. One of my recent projects is **QueueFlow AI**, an intelligent queue management system built for a technology competition, leveraging AI to improve customer flow, reduce waiting times, and enhance operational efficiency.
+
+Alongside these projects, I'm growing **NuTech Solutions**, where I develop AI-powered automation, custom software, and IT solutions for businesses.
+
+### 🌱 Currently Learning
+
+* Cybersecurity
+* Linux System Administration
+* AI Engineering & AI Agents
+* Cloud Infrastructure
+* Software Architecture
+* Platform Engineering
+
+### 🚀 Current Focus
+
+* Building Atlas into a world-class open-source developer platform
+* Growing NuTech Solutions
+* Contributing to open-source software
+
+### 🛠️ Interests
+
+* Cybersecurity
+* Artificial Intelligence
+* Linux & Open Source
+* DevOps & Platform Engineering
+* Cloud Computing
+* Automation
+* Systems Programming
+
+### 🎯 Long-Term Vision
+
+To build globally recognized technology products that empower developers, solve real-world problems, and shape the future of software engineering.
 
 
 ## 🌐 Socials:
@@ -21,4 +57,3 @@
 ---
 [![](https://komarev.com/ghpvc/?username=thiva2k&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
