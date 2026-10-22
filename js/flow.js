@@ -7,7 +7,12 @@ const listEl = document.getElementById('completedList');
 
 function render() {
   const items = storage.get('completedBooks', []);
-  listEl.innerHTML = items.map((i) => `<li>${i}</li>`).join('') || '<li>No completed books yet.</li>';
+  listEl.replaceChildren();
+  for (const title of items.length ? items : ['No completed books yet.']) {
+    const li = document.createElement('li');
+    li.textContent = title;
+    listEl.append(li);
+  }
 }
 
 toggle.addEventListener('click', async () => {
